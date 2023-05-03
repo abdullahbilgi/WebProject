@@ -92,11 +92,7 @@ a:link{
 a:visited{
     color: white;
 }
-body {
-	font-size: 12px;
-	font-family: sans-serif;
-	background: #dcdde1;
-}
+
 
 /* FOOTER*/
 
@@ -128,6 +124,7 @@ body {
 .ozgecmis-color{
     color: rgb(6, 4, 126);
 }
+
 .left-nav{
     background-color: rgb(6, 4, 126);
     width: 20%;
@@ -170,6 +167,55 @@ body {
 }
 .diller i{
     margin: 10px;
-    color: rgb(6, 4, 126);
+    color: black;
     font-size: 5rem;
+}
+
+/* Mirasımız  */
+.section-yason h3{
+    font-size: 5rem;
+    color: #212529;
+}
+.section-yason h5{
+    font-size: 2rem;
+    color: #61892F;
+}
+.section-yason-bg p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #636464;
+}
+.section-yason-bg{
+    background: url("../images/yason-00.jpg") center center no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding:20px;
+    text-align: end;
+}
+.yason-bilgi{
+    background-color: #F5F4EB;
+    padding:30px ;
+    margin-bottom: 1.5rem;
+}
+.yason-bilgi p{
+    font-weight: bold;
+    line-height: 1.şşş8rem;
+}
+.row .figure img{
+    max-height: 350px !important;
+}
+
+.cizgi{
+    border: 2px solid black;
+    max-width: 300px;
+    margin-right:auto;
+    margin:40px auto;
+}
+
+.icon{
+    position: relative;
+    font-size: 40px;
+    top: -70px;
+    background-color:white ;
+    padding:10px;
 }
