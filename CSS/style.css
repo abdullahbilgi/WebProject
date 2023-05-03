@@ -54,7 +54,7 @@ a:nth-child(7) {
 nav .start-home, a:nth-child(1):hover~.animation {
 	width: 100px;
 	left: 0;
-	background-color: red;
+	background-color: #800000;
 }
 nav .start-about, a:nth-child(2):hover~.animation {
 	width: 110px;
@@ -98,4 +98,78 @@ body {
 	background: #dcdde1;
 }
 
-/* FOOTER */
+/* FOOTER*/
+
+.footer{
+    height:auto;
+    background-color: rgb(34, 34, 34);
+    color:#F5F4EB;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-text{
+    font-size: 1.2rem;
+}
+.footer a{
+    list-style-type: none;
+    color: #F5F4EB;
+    margin-right: 15px;
+}
+
+/*Ozgecmis*/
+.ozgecmis{
+    display: flex;
+    flex-direction: row;
+}
+.ozgecmis-color{
+    color: rgb(6, 4, 126);
+}
+.left-nav{
+    background-color: rgb(6, 4, 126);
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ana-icerik{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cv-img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 100px;
+}
+#iletisim{
+    display: flex;
+    flex-direction: column;
+    
+}
+#iletisim a{
+    color: #F5F4EB;
+    margin-bottom: 10px;
+}
+.ana-icerik ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+.diller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.diller i{
+    margin: 10px;
+    color: rgb(6, 4, 126);
+    font-size: 5rem;
+}
