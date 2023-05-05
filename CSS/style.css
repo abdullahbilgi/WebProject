@@ -1,271 +1,106 @@
-/* NAVBAR*/
+@media screen and (max-width: 992px) {
 
-nav {
-	margin: 27px auto 0;
- 
-	position: relative;
-	width: 800px;
-	height: 50px;
-	background-color: #34495e;
-	
-	font-size: 0;
-}
-nav a {
-	line-height: 50px;
-	height: 100%;
-	font-size: 15px;
-	display: inline-block;
-	position: relative;
-	z-index: 1;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	color: white;
-	cursor: pointer;
-}
-nav .animation {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	z-index: 0;
-	transition: all .5s ease 0s;
-}
-a:nth-child(1) {
-	width: 100px;
-}
-a:nth-child(2) {
-	width: 110px;
-}
-a:nth-child(3) {
-	width: 100px;
-}
-a:nth-child(4) {
-	width: 110px;
-}
-a:nth-child(5) {
-	width: 160px;
-}
-a:nth-child(6) {
-	width: 110px;
-}
-a:nth-child(7) {
-	width: 110px;
-}
-nav .start-home, a:nth-child(1):hover~.animation {
-	width: 100px;
-	left: 0;
-	background-color: #800000;
-}
-nav .start-about, a:nth-child(2):hover~.animation {
-	width: 110px;
-	left: 100px;
-	background-color: orange;
-}
-nav .start-blog, a:nth-child(3):hover~.animation {
-	width: 100px;
-	left: 210px;
-	background-color: rgb(196, 196, 62);
-}
-nav .start-portefolio, a:nth-child(4):hover~.animation {
-	width: 110px;
-	left: 310px;
-	background-color: rgb(50, 161, 50);
-}
-nav .start-contact, a:nth-child(5):hover~.animation {
-	width: 160px;
-	left: 420px;
-	background-color: rgb(89, 89, 179);
-}
-nav .start-portefolio, a:nth-child(6):hover~.animation {
-	width: 110px;
-	left: 580px;
-	background-color: navy;
-}
-nav .start-contact, a:nth-child(7):hover~.animation {
-	width: 110px;
-	left: 690px;
-	background-color: #9b59b6;
-}
-a:link{
-    text-decoration: none;
-}
-a:visited{
-    color: white;
-}
+    /*Ana Menü*/
+    .f1-photo img{
+        width: 100%;
+        height: 20rem;
+        margin-bottom: 10px;
+        border: 2px solid #61892F;
+    }
 
+    /*Özgecmis*/
+    .ozgecmis{
+        flex-direction: column;
+    }
+    .left-nav{
+        width: 100%;
+    }
+    .ana-icerik{
+        width: 100%;
+    }
 
-/* FOOTER*/
+    /*LOGİN*/
 
-.footer{
-    height:auto;
-    background-color: rgb(34, 34, 34);
-    color:#F5F4EB;
-    height: 90px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
+    .login{
+        width: 60%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        
+    }
+    .gray{
+        width: 60%;
+        height: 100vh;
+    }
 }
-.footer-text{
-    font-size: 1.2rem;
-}
-.footer a{
-    list-style-type: none;
-    color: #F5F4EB;
-    margin-right: 15px;
-}
-
-/*Ozgecmis*/
-.ozgecmis{
-    display: flex;
-    flex-direction: row;
-}
-.ozgecmis-color{
-    color: rgb(6, 4, 126);
-}
-
-.left-nav{
-    background-color: rgb(6, 4, 126);
-    width: 20%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.ana-icerik{
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.cv-img{
-    width: 200px;
-    height: 200px;
-    border: 10px solid black;
-    border-radius: 100px;
-}
-#iletisim{
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 768px) {
     
-}
-#iletisim a{
-    color: #F5F4EB;
-    margin-bottom: 10px;
-}
-.ana-icerik ul{
-    list-style-type: none;
-    font-weight: bold;
-}
-.diller{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.diller i{
-    margin: 10px;
-    color: black;
-    font-size: 5rem;
-}
+    /*Sehrim*/
 
-/* Mirasımız  */
-.section-yason h3{
-    font-size: 5rem;
-    color: #212529;
-}
-.section-yason h5{
-    font-size: 2rem;
-    color: #61892F;
-}
-.section-yason-bg p{
-    font-size: 2rem;
-    font-weight: bold;
-    color: #636464;
-}
-.section-yason-bg{
-    background: url("../images/yason-00.jpg") center center no-repeat;
-    background-size: cover;
-    height: 60vh;
-    padding:20px;
-    text-align: end;
-}
-.yason-bilgi{
-    background-color: #F5F4EB;
-    padding:30px ;
-    margin-bottom: 1.5rem;
-}
-.yason-bilgi p{
-    font-weight: bold;
-    line-height: 1.şşş8rem;
-}
-.row .figure img{
-    max-height: 350px !important;
-}
+    .card{
+        max-width: 100%;
+    }
+    /*Mirasımız*/
 
-.cizgi{
-    border: 2px solid black;
-    max-width: 300px;
-    margin-right:auto;
-    margin:40px auto;
+    .resim-slider{
+        height: 20rem;
+    }
 }
+@media screen and (max-width: 576px) { 
+    
+    /* Ana Sayfa */
 
-.icon{
-    position: relative;
-    font-size: 40px;
-    top: -70px;
-    background-color:white ;
-    padding:10px;
-}
+    #kapakMetin h3{
+        font-size: 3rem;
+    }
+    #kapakMetin i{
+        font-size: 3rem;
+    }
+    .f1-photo img{
+        height: 10rem;
+    }
 
-/* Ana Menü */
-#mainMenu{
-    background: url("../images/arrow-00.jpg") center center no-repeat;
-    background-size: cover;
-    height: 120vh;
-}
-#black{
-    width: 100%;
-    height: 120vh;
-    background-color: black;
-    opacity: 0.4;
-}
-#kapakMetin{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    left: 0;
-}
-#kapakMetin h3{
-    font-size: 5.5rem;
-    color: rgb(167, 167, 167);
-    text-shadow: 1px 1px 1px black;
-}
-#kapakMetin i{
-    color: rgb(167, 167, 167);
-    font-size: 6rem;
-    text-shadow: 1px 1px 1px black;
-}
-.container p{
-    font-weight: bold;
-    line-height: 2rem;
-    margin-bottom: 40px;
-}
-.container a{
-    color: black;
-    padding: 10px;
-}
+    /*Mirasımız*/
 
-#hakkimda-tanim img{
-    width: 30%;
-    margin-bottom: 2rem;
-    border-radius: 100%;
+    .resim-slider{
+        height: 15rem;
+    }
 
+    .section-yason h3{
+        font-size: 3rem;
+        color: #212529;
+    }
+    .section-yason p{
+        font-size: 1rem;
+        font-weight: bold;
+        color: #636464;
+    }
+    .resimler img{
+        height: 15rem;
+    }
+
+    /*Sehrim*/
+
+    .card img{
+        height: 15rem;
+    }
+    /*İlgi Alanlarım*/
+
+    .hava-d input{
+        width: 80%;
+    }
+
+    /*LOGİN*/
+
+    .login{
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+            
+    }
+    .gray{
+        width: 100%;
+        height: 100vh;
+    }
 }

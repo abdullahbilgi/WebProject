@@ -1,0 +1,33 @@
+/* Şehrim */
+
+.resim-slider{
+    height: 30rem;
+}
+.cizgi{
+    border: 2px solid black;
+    max-width: 300px;
+    margin-right:auto;
+    margin:40px auto;
+}
+.ordu-bilgi{
+    background-color: #F5F4EB;
+    padding:30px ;
+    margin-bottom: 1.5rem;
+}
+.icon{
+    position: relative;
+    font-size: 40px;
+    top: -70px;
+    background-color:white ;
+    padding:10px;
+}
+.card{
+    border: 2px solid #000000;
+    max-width: 50%;
+}
+.card img{
+    height: 15rem;
+}
+.card-body{
+    background-color:#F5F4EB;
+}

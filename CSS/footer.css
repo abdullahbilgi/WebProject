@@ -1,0 +1,39 @@
+/* FOOTER*/
+
+.footer{
+    height:auto;
+    background-color: rgb(34, 34, 34);
+    color:#F5F4EB;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-text{
+    font-size: 1.2rem;
+}
+.footer a{
+    list-style-type: none;
+    color: #F5F4EB;
+    margin-right: 15px;
+}
+
+.footer a.insta:hover{
+    list-style-type: none;
+    color: purple;
+    margin-right: 15px;
+}
+
+.footer a.linkedln:hover{
+    list-style-type: none;
+    color: navy;
+    margin-right: 15px;
+}
+
+.footer a.github:hover{
+    list-style-type: none;
+    color: grey;
+    margin-right: 15px;
+}

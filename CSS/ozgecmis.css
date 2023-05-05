@@ -1,0 +1,80 @@
+/*Ozgecmis*/
+.ozgecmis{
+    display: flex;
+    flex-direction: row;
+}
+.ozgecmis-color{
+    color: rgb(6, 4, 126);
+}
+
+.left-nav{
+    background-color: rgb(6, 4, 126);
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ana-icerik{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cv-img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 100px;
+}
+#iletisim{
+    display: flex;
+    flex-direction: column;
+    
+}
+#iletisim a{
+    color: #F5F4EB;
+    margin-bottom: 10px;
+}
+.ana-icerik ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+.diller{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.diller i{
+    margin: 10px;
+    color: black;
+    font-size: 5rem;
+}
+
+.diller i.js:hover{
+    margin: 10px;
+    color: rgb(177, 177, 0);
+    font-size: 5rem;
+}
+.diller i.html:hover{
+    margin: 10px;
+    color: rgb(212, 140, 7);
+    font-size: 5rem;
+}
+.diller i.php:hover{
+    margin: 10px;
+    color: rgb(94, 90, 90);
+    font-size: 5rem;
+}
+.diller i.java:hover{
+    margin: 10px;
+    color: red;
+    font-size: 5rem;
+}
+.diller i.css:hover{
+    margin: 10px;
+    color: blue;
+    font-size: 5rem;
+}

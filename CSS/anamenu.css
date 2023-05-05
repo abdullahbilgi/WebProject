@@ -1,0 +1,61 @@
+/* Ana Menü */
+#mainMenu{
+    background: url("../images/arrow-00.jpg") center center no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+#black{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    opacity: 0.4;
+}
+#kapakMetin{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+#kapakMetin h3{
+    font-size: 5.5rem;
+    color: rgb(167, 167, 167);
+    text-shadow: 1px 1px 1px black;
+}
+
+#kapakMetin h3:hover{
+    font-size: 5.5rem;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+#kapakMetin i{
+    color: rgb(167, 167, 167);
+    font-size: 6rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+#kapakMetin i:hover{
+    color: black;
+    font-size: 6rem;
+    text-shadow: 1px 1px 1px black;
+}
+.container p{
+    font-weight: bold;
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+.container a{
+    color: black;
+    padding: 10px;
+}
+
+#hakkimda-tanim img{
+    width: 30%;
+    margin-bottom: 2rem;
+    border-radius: 100%;
+
+}
