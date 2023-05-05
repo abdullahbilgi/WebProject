@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/giris.css">
+
 
 
     <title>Giris</title>
@@ -34,7 +36,42 @@
             <a href="giris.html">GIRIS</a>
                 <div class="animation start-home"></div>
         </nav>
-    </div>
+    </div><br><br><br>
+
+    <section class="col-md-12" >
+        <div class=" div-bos col-md-4"></div>
+        <div class="main-div col-md-4" ><br>
+            <img src="images/giris.png" alt="">
+            <h5 class="login-iletisim-title">Giriş Yap</h5>
+
+            <div class="login-form">
+                <form action="giris.php" method="post">
+
+                    <label for="email">Kullanıcı Adı</label>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Kullanıcı Adınızı Giriniz..." required autofocus>
+                    </div>
+                    <label for="password">Şifre</label>
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" placeholder="Şifrenizi Giriniz..." required>
+                    </div>
+
+                    <button class="btn" type="submit">Giriş Yap</button>
+
+                </form><br>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
     
 </body>
 </html>

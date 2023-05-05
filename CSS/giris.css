@@ -1,0 +1,57 @@
+.btn{
+    width: 20rem;
+    border: 2px solid #61892F;
+    border-radius: 15px;
+    color: #61892F;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.btn:hover{
+    background-color: #440303;
+    color: #F5F4EB;
+    border: 2px solid #F5F4EB;
+}
+section{
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 1.5rem;
+}
+.form-group input{
+    width: 20rem;
+    padding: 10px;
+    border: 1px solid #61892F;
+    border-radius: 20px;
+}
+.form-group input:focus{
+    outline: 0;
+    border: 2px solid #b1dd13;
+}
+
+.login-form label{
+
+    color: #F5F4EB;
+}
+
+.login-iletisim-title{
+    font-size: 2.5rem;
+    color: #F5F4EB;
+    margin-bottom: 3rem;
+}
+
+body{
+    background-color: grey;
+}
+.div-bos{
+    float: left;
+}
+
+.main-div{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5%;
+    text-align: center;
+    border-top-width: 1rem;
+    float: left;
+
+}
