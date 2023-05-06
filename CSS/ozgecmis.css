@@ -1,4 +1,7 @@
 /*Ozgecmis*/
+body{
+    background-color: grey;
+}
 .ozgecmis{
     display: flex;
     flex-direction: row;
