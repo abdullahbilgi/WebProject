@@ -11,17 +11,31 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/iletisim.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
 
 
     <title>İletisim</title>
     <link rel="shortcut icon" href="images/iletisim.jpg"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+   <script defer src="./JS/form.js"></script> 
+
     
 
 </head>
-<body>
+<body class="setFont bodyBackground">
     <div>
         <nav>
 
@@ -34,7 +48,147 @@
             <a href="giris.html">GIRIS</a>
                 <div class="animation start-home"></div>
         </nav>
-    </div>
+    </div><br><br>
+
+    <!--<section class="col-md-12" >
+        <div class=" div-bos col-md-4"></div>
+        <div class="main-div col-md-4" ><br>
+            <h5 class="login-iletisim-title">Bizimle Iletişime Geçin</h5>
+
+            <div class="login-form">
+                <form name="formumuz" action="#" onsubmit="return validateForm()" method="post">
+
+                    <label for="email">Adınız</label>
+                    <div class="form-group">
+                        <input type="text" id="ad" name="ad" placeholder="Adınızı Giriniz...">
+                    </div>
+                    <label for="password">Şifre</label>
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" placeholder="Şifrenizi Giriniz..." >
+                    </div>
+
+                    <button class="btn" type="submit">Gönder</button>
+
+                </form><br>
+
+
+            </div>
+        </div>
+    </section>-->
+
+
+    <div class="container">
+
+        <form id="form" action="iletisim.php"  method="post">
+          <h1>Bizimle İletişime Geçin</h1>
+
+          <div class="input-control">
+            <label for="username">Adınız :</label>
+            <input id="username" name="username" type="text" placeholder="Adınızı Giriniz...">
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="lastname">Soyadnız :</label>
+            <input id="lastname" name="lastname" type="text" placeholder="Soyadınızı Giriniz...">
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="email">Email :</label>
+            <input id="email" name="email" type="text" placeholder="email adresini giriniz...">
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="password">Şifre :</label>
+            <input id="password" name="password" type="password" placeholder="Şifrenizi giriniz...">
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="password2">Şifre Tekrarı :</label>
+            <input id="password2" name="password2" type="password" placeholder="Şifrenizi tekrar giriniz...">
+            <div class="error"></div>
+          </div>
+
+          <div >
+            <label for="gender">Cinsiyet :</label><br>
+            <input id="gender" name="gender" type="radio" value="erkek" checked> Erkek &nbsp  
+            <input id="gender" name="gender" type="radio" value="kadın">Kadın &nbsp
+            <input id="gender" name="gender" type="radio" value="diğer">Diğer
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="borndate">Doğum Tarihi :</label>
+            <input id="borndate" name="borndate" type="date" value=" ">
+            <div class="error"></div>
+          </div>
+
+          <div >
+            <label for="likepage">Beğendiğiniz Sayfalar :</label><br>
+            <input id="likepage" name="likepage" type="checkbox"  >Anasayfa &nbsp
+            <input id="likepage" name="likepage" type="checkbox"  >Özgeçmiş <br>
+            <input id="likepage" name="likepage" type="checkbox"  >Şehrim &nbsp
+            <input id="likepage" name="likepage" type="checkbox"  >Mirasımız <br>
+            <input id="likepage" name="likepage" type="checkbox"  >İlgi Alanlarım &nbsp
+            <input id="likepage" name="likepage" type="checkbox"  >Giriş
+
+            <div class="error"></div>
+          </div>
+          <br>
+          <div class="input-control">
+            <label for="info">İletişim Nedeniniz ?</label>
+            <select name="info" id="info">
+                <option value=" " selected>------------------</option>
+                <option >Yadım</option>
+                <option >Şikayet</option>
+                <option >Bilgi</option>
+                </select>
+            <div class="error"></div>
+          </div>
+
+          <div class="input-control">
+            <label for="message">Mesajınız :</label>
+            <textarea name="message" id="message" cols="30" rows="10" value=" " placeholder="Mesajınızı giriniz..."></textarea>
+            <div class="error"></div>
+          </div>
+
+          <button type="reset">Temizle</button>
+          <button type="submit">Gönder</button>
+        </form>
+      </div>
+   
+
+
+
+
+
+    <br><br>
+
+   
+
+
+
+
+
+
+
+
+
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
     
 </body>
 </html>
