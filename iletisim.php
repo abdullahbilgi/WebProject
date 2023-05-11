@@ -84,7 +84,9 @@
                         </tr>
                         
                     </tbody>
-                </table>
+                </table><br>
+
+                <?php echo "<p> <a href='giris.html'>&lt;Giriş sayfasına geri dön&gt;</a></p> "; ?>
         </div>
     
 

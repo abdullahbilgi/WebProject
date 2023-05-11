@@ -3,7 +3,7 @@
 	$email=$_POST['email'];
     $password=$_POST['password'];
 	
-	if($email=='b221210350@sakarya.edu.tr'){
+	if($email=='b221210350@sakarya.edu.tr' && $password=='b221210350'){
 
     if(isset($_POST['email'])&&isset($_POST['password'])){ 
     
